@@ -11,6 +11,7 @@ public class DBConnector {
 	private static Connection con = null;
 	static {
 		openCon();
+		
 	}
 	private static void openCon() {
 		try {
